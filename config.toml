@@ -1,4 +1,4 @@
-baseURL = "https://www.matus.pro"
+baseURL = "https://matus.pro"
 title = "Vladislav Matus"
 theme = "hugo-coder"
 languageCode = "en"
