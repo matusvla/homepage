@@ -1,0 +1,1 @@
+the static page code is in /docs, beware when regenerating!

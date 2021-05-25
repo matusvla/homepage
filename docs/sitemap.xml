@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.matus.pro/authors/</loc>
+    <loc>https://matus.pro/authors/</loc>
   </url><url>
-    <loc>https://www.matus.pro/categories/</loc>
+    <loc>https://matus.pro/categories/</loc>
   </url><url>
-    <loc>https://www.matus.pro/series/</loc>
+    <loc>https://matus.pro/series/</loc>
   </url><url>
-    <loc>https://www.matus.pro/tags/</loc>
+    <loc>https://matus.pro/tags/</loc>
   </url><url>
-    <loc>https://www.matus.pro/</loc>
+    <loc>https://matus.pro/</loc>
   </url>
 </urlset>
