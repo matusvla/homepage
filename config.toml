@@ -143,20 +143,20 @@ url = "https://www.linkedin.com/in/vladislav-matúš-9714a0174/"
 # [languages.en]
 # languageName = ":uk:"
 # 
-# [[languages.en.menu.main]]
-# name = "About"
-# weight = 1
-# url = "about/"
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "/"
 # 
 # [[languages.en.menu.main]]
 # name = "Blog"
 # weight = 2
 # url = "posts/"
 # 
-# [[languages.en.menu.main]]
-# name = "Projects"
-# weight = 3
-# url = "projects/"
+[[languages.en.menu.main]]
+name = "Talks"
+weight = 2
+url = "talks/"
 # 
 # [[languages.en.menu.main]]
 # name = "Contact me"
