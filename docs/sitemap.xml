@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://matus.pro/tags/emoji/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://matus.pro/talks/journey/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://matus.pro/tags/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://matus.pro/talks/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://matus.pro/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://matus.pro/authors/</loc>
   </url><url>
     <loc>https://matus.pro/categories/</loc>
   </url><url>
     <loc>https://matus.pro/series/</loc>
-  </url><url>
-    <loc>https://matus.pro/tags/</loc>
-  </url><url>
-    <loc>https://matus.pro/</loc>
   </url>
 </urlset>
