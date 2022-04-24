@@ -1,195 +1,124 @@
-baseURL = "https://matus.pro"
-title = "Vladislav Matus"
-theme = "hugo-coder"
+baseURL = "https://example.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
-pygmentsStyle = "bw"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
+title = "Vladislav Matúš"
+theme = "KeepItNew"
+
+paginate = 12
 enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = "matusvla"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 2
 
 [params]
-author = "Vladislav Matus"
-description = "Vladislav Matus's personal website"
-keywords = "blog,developer,personal"
-info = ["Backend Developer", "Prague Golang Meetup Organizer"]
-avatarURL = "images/headshot.jpg"
-# footerContent = "Enter a text here."
-dateFormat = "January 2, 2006"
-hideFooter = true
-hideCredits = false
-hideCopyright = false
-since = 2021
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-# Right To Left, shift content direction for languagues such as Arabic
-rtl = false
-# Specify light/dark colorscheme
-# Supported values:
-# "auto" (use preference set by browser)
-# "dark" (dark background, light foreground)
-# "light" (light background, dark foreground) (default)
-colorScheme = "dark"
-# Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
-# Series see also post count
-maxSeeAlsoItems = 5
-# Enable Twemoji
-enableTwemoji = false
-# Custom CSS
-customCSS = []
-# Custom SCSS
-customSCSS = []
-# Custom JS
-customJS = []
+    since = 2021
+    author = "V. Matúš"               # Author's name
+    subtitle = "Vladislav Matúš"
+    subtitle_additional = "Senior Software Developer"
+    subtitle_additional_2 = "Prague Golang Meetup Organizer"
+    home_mode = "" # post or other
+    
+    avatar = "/images/avatar.jpg" #comment it to use gravatar
+    socialShare = true
 
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-# [params.fathomAnalytics]
-# siteID = "ABCDE"
-# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-# If you want to use plausible(https://plausible.io) for analytics, add this section
-# [params.plausibleAnalytics]
-# domain = "example.com"
-# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+[params.gravatar]
+    #email = "vladislav@matus.com"   #uncomment and insert your email address to use gravatar
 
-# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
-# [params.goatCounter]
-# code = "code"
 
-# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
-# [params.cloudflare]
-# token = "token"
+[params.social]
+    GitHub = "matusvla"
+    Linkedin = "vladislav-mat%C3%BA%C5%A1-9714a0174/"
+    Twitter = "MatusVladislav"
+    #Instagram = "xxxx"
+    #Email   = "xxxx"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
+    #Medium = "xxxx"
+    #Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
 
-# If you want to use Matomo(https://matomo.org) for analytics, add this section
-# [params.matomo]
-# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
-# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
-
-# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
-
-# If you want to implement a Content-Security-Policy, add this section
-[params.csp]
-childsrc = ["'self'"]
-fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'"]
-objectsrc = ["'none'"]
-stylesrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/"
-]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
-prefetchsrc = ["'self'"]
-# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
-
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
-
-[[params.social]]
-name = "Github"
-icon = "fa fa-github"
-weight = 1
-url = "https://github.com/matusvla/"
-
-#[[params.social]]
-#name = "Gitlab"
-#icon = "fa fa-gitlab"
-#weight = 2
-#url = "https://gitlab.com/johndoe/"
-
-[[params.social]]
-name = "Twitter"
-icon = "fa fa-twitter"
-weight = 3
-url = "https://twitter.com/MatusVladislav"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-linkedin"
-weight = 4
-url = "https://www.linkedin.com/in/vladislav-matúš-9714a0174/"
-
-# [[params.social]]
-# name = "Gitlab"
-# icon = "fa fa-gitlab"
-# weight = 2
-# url = "https://gitlab.com/johndoe/"
-
-# [[params.social]]
-# name = "Medium"
-# icon = "fa fa-medium"
-# weight = 5
-# url = "https://medium.com/@johndoe"
- 
-# [[params.social]]
-# name = "RSS"
-# icon = "fa fa-rss"
-# weight = 6
-# url = "https://myhugosite.com/index.xml"
-# rel = "alternate"
-# type = "application/rss+xml"
-
-# [languages.en]
-# languageName = ":uk:"
-# 
-[[languages.en.menu.main]]
-name = "About"
-weight = 1
-url = "/"
-# 
-# [[languages.en.menu.main]]
-# name = "Blog"
-# weight = 2
-# url = "posts/"
-# 
-[[languages.en.menu.main]]
-name = "Talks"
-weight = 2
-url = "talks/"
-# 
-# [[languages.en.menu.main]]
-# name = "Contact me"
-# weight = 5
-# url = "contact/"
-# 
-# [languages.pt-br]
-# languageName = ":brazil:"
-# title = "João Ninguém"
-# 
-# [languages.pt-br.params]
-# author = "João Ninguém"
-# info = "Full Stack DevOps e Mágico"
-# description = "Sítio pessoal de João Ninguém"
-# keywords = "blog,desenvolvedor,pessoal"
-# footerContent = "Coloque algum texto aqui."
-# 
-# [[languages.pt-br.menu.main]]
-# name = "Sobre"
-# weight = 1
-# url = "about/"
-# 
-# [[languages.pt-br.menu.main]]
-# name = "Blog"
-# weight = 2
-# url = "posts/"
-# 
-# [[languages.pt-br.menu.main]]
-# name = "Projetos"
-# weight = 3
-# url = "projects/"
-# 
-# [[languages.pt-br.menu.main]]
-# name = "Contato"
-# weight = 5
-# url = "contact/"
+[params.share]
+Twitter = true
+#Facebook = true
+#Reddit = true
+Linkedin = true
+#Pinterest = true
+#HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true

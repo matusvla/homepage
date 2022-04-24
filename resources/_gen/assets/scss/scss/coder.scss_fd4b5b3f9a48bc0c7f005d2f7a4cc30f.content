@@ -3103,8 +3103,8 @@ h6 {
     text-decoration: none; }
 
 h1 {
-  font-size: 4.2rem;
-  line-height: 4.6rem; }
+  font-size: 3.2rem;
+  line-height: 3.6rem; }
   @media only screen and (max-width: 768px) {
     h1 {
       font-size: 3rem;
@@ -3316,12 +3316,12 @@ img.emoji {
     margin: 0; }
 
 .avatar img {
-  width: 35rem;
+  width: 20rem;
   height: auto;
   border-radius: 50%; }
   @media only screen and (max-width: 768px) {
     .avatar img {
-      width: 25rem; } }
+      width: 10rem; } }
 .list ul {
   margin: 3.2rem 0 3.2rem 0;
   list-style: none;
@@ -3355,7 +3355,6 @@ img.emoji {
     display: flex; } }
 
 .centered {
-  margin-top: -10em;
   display: flex;
   align-items: center;
   justify-content: center; }
