@@ -1,9 +1,21 @@
 ## Portfolio
 
-- [GitLab multi cloner](https://github.com/matusvla/glmc)
-- [Graphical CLI Application written in Go for viewing structured logs](https://github.com/matusvla/portfolio) (access granted on request)
-- [Extension of the C++ implementation of the Bang! board game](https://github.com/matusvla/kbang) (access granted on request)
+- [Easy flag](https://github.com/matusvla/easyflag)
+    - Package simplifying the usage of the go `flag` package and extending its functionality.
+    - Godoc available [here](https://pkg.go.dev/github.com/matusvla/easyflag)
+
+- [Log Viewer](https://github.com/matusvla/portfolio) 
+    - Graphical CLI Application written in Go for viewing structured logs.
+
+- [Channel splitter](https://github.com/matusvla/chansplit)
+    - Package providing functionality for sending data from one input channel to multiple output channels
+    - Godoc available [here](https://pkg.go.dev/github.com/matusvla/chansplit)
+
 - [Advent Of Code 2020 and 2021 solutions](https://github.com/matusvla/advent-of-code)
+    - Code hacked together solely for the purpose of completing the [Advent of Code](https://adventofcode.com) puzzles
+
+- [Extension of the C++ implementation of the Bang! board game](https://github.com/matusvla/kbang) (access granted on request)
+
 
 ## Talks
 
