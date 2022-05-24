@@ -4,7 +4,7 @@
     - Package simplifying the usage of the go `flag` package and extending its functionality.
     - Godoc available [here](https://pkg.go.dev/github.com/matusvla/easyflag)
 
-- [Log Viewer](https://github.com/matusvla/portfolio) 
+- [Log Viewer](https://github.com/matusvla/logviewer) 
     - Graphical CLI Application written in Go for viewing structured logs.
 
 - [Channel splitter](https://github.com/matusvla/chansplit)
